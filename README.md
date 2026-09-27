@@ -41,13 +41,13 @@ Este projeto demonstra a governança de identidades e a gestão de acessos em um
 
 ### Principais Funcionalidades
 - **Automação do Ciclo de Vida de Identidades:** Criação automatizada de usuários com redefinição obrigatória de senha no primeiro acesso.
-- **Arquitetura de Grupos:** Categorização por grupos de segurança (SecOps-Admins, Engineering-Team, Finance-Dept).
+- **Arquitetura de Grupos:** Categorização por grupos de segurança (`SecOps-Admins`, `Engineering-Team`, `Finance-Dept`).
 - **Acesso de Menor Privilégio:** Definições de controle de acesso baseado em papéis (RBAC) para equipes administrativas e operacionais.
 - **Enforcement de Segurança:** Estrutura pronta para políticas de Acesso Condicional e Autenticação Multi-Fator (MFA).
 
 ### Pré-requisitos
 - Windows PowerShell 5.1 ou PowerShell 7+
-- SDK do Microsoft Graph em PowerShell (Microsoft.Graph)
+- SDK do Microsoft Graph em PowerShell (`Microsoft.Graph`)
 - Permissões de Global Administrator ou Privileged Role Administrator no Entra ID
 
 ### Como Executar
