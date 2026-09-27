@@ -33,7 +33,7 @@ Install-Module Microsoft.Graph -Scope CurrentUser
 .\deploy_entra_id.ps1
 ```
 ---
-
+Script de provisionamento automatizado e blueprint de arquitetura de segurança para gestão de identidades corporativas no Microsoft Entra ID (antigo Azure AD).
 ## Português - BR
 
 ### Visão Geral do Projeto
