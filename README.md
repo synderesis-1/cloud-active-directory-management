@@ -31,7 +31,7 @@ Install-Module Microsoft.Graph -Scope CurrentUser
 
 # Execute execution script
 .\deploy_entra_id.ps1
-
+```
 ---
 
 ## 🇧🇷 Português (Portuguese Translation)
