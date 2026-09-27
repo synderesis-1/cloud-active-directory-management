@@ -34,16 +34,16 @@ Install-Module Microsoft.Graph -Scope CurrentUser
 ```
 ---
 
-## 🇧🇷 Português (Portuguese Translation)
+## 🇧🇷 Português
 
 ### Visão Geral do Projeto
 Este projeto demonstra a governança de identidades e a gestão de acessos em um ambiente nativo em nuvem. Utilizando PowerShell e a API Microsoft Graph, ele automatiza o ciclo de vida de usuários, hierarquias de grupos e atribuições de papéis aplicando controles de segurança Zero Trust.
 
 ### Principais Funcionalidades
-- **Automação do Ciclo de Vida de Identidades: Criação automatizada de usuários com redefinição obrigatória de senha no primeiro acesso.
-- **Arquitetura de Grupos: Categorização por grupos de segurança (SecOps-Admins, Engineering-Team, Finance-Dept).
-- **Acesso de Menor Privilégio: Definições de controle de acesso baseado em papéis (RBAC) para equipes administrativas e operacionais.
-- **Enforcement de Segurança: Estrutura pronta para políticas de Acesso Condicional e Autenticação Multi-Fator (MFA).
+- **Automação do Ciclo de Vida de Identidades:** Criação automatizada de usuários com redefinição obrigatória de senha no primeiro acesso.
+- **Arquitetura de Grupos:** Categorização por grupos de segurança (SecOps-Admins, Engineering-Team, Finance-Dept).
+- **Acesso de Menor Privilégio:** Definições de controle de acesso baseado em papéis (RBAC) para equipes administrativas e operacionais.
+- **Enforcement de Segurança:** Estrutura pronta para políticas de Acesso Condicional e Autenticação Multi-Fator (MFA).
 
 ### Pré-requisitos
 - Windows PowerShell 5.1 ou PowerShell 7+
@@ -54,6 +54,6 @@ Este projeto demonstra a governança de identidades e a gestão de acessos em um
 ```PowerShell
 # Instalar o módulo do Microsoft Graph
 Install-Module Microsoft.Graph -Scope CurrentUser
-
+```
 # Executar o script de provisionamento
 .\deploy_entra_id.ps1
