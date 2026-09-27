@@ -8,7 +8,7 @@ Automated provisioning script and security architecture blueprint for managing e
 
 ---
 
-## 🇬🇧 English
+## :gb: English
 
 ### Project Overview
 This project demonstrates identity governance and access management in a cloud-native environment. Using PowerShell and Microsoft Graph API, it automates user lifecycle management, group hierarchies, and role assignments while applying Zero Trust security controls.
@@ -34,7 +34,7 @@ Install-Module Microsoft.Graph -Scope CurrentUser
 ```
 ---
 
-## 🇧🇷 Português
+## :brazil: Português
 
 ### Visão Geral do Projeto
 Este projeto demonstra a governança de identidades e a gestão de acessos em um ambiente nativo em nuvem. Utilizando PowerShell e a API Microsoft Graph, ele automatiza o ciclo de vida de usuários, hierarquias de grupos e atribuições de papéis aplicando controles de segurança Zero Trust.
