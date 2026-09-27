@@ -54,6 +54,7 @@ Este projeto demonstra a governança de identidades e a gestão de acessos em um
 ```PowerShell
 # Instalar o módulo do Microsoft Graph
 Install-Module Microsoft.Graph -Scope CurrentUser
-```
+
 # Executar o script de provisionamento
 .\deploy_entra_id.ps1
+```
